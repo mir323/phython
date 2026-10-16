@@ -1,0 +1,7 @@
+input()
+plural1 = set(map(int, input().split()))
+input()
+plural2 = set(map(int, input().split()))
+plural3 = plural1.symmetric_difference(plural2)
+print(len(plural3))
+print(plural3)
