@@ -1,6 +1,6 @@
-
-n = int(input())
-strings = 
-for _ in range(n):
-    strings.append(input()) 
-print(' '.join(strings))
+a = int(input())
+s = []
+for i in range(a):
+    s.append(input())
+for a in s:
+    print(a)
