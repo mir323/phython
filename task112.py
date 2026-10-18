@@ -13,4 +13,4 @@ print()
 
 for surname, grade in pairs:
  if grade == 4 or grade == 5:
- print(surname, grade)
+   print(surname, grade)
