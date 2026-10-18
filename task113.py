@@ -1,3 +1,5 @@
-data = [5, 3, 4, 6]
-sorting_triple("len", True)
-print(data)
+n = int(input())
+
+strings = [input() for _ in range(n)]
+
+print(*sorted(strings))
